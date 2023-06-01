@@ -611,3 +611,38 @@ footer ul li a:hover {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .header__right-image {
+    position: static;
+  }
+
+  video {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .header__right-image {
+    position: static;
+  }
+
+  video {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .header__right-image {
+    position: static;
+  }
+
+  video {
+    height: auto;
+    width: 100%;
+  }
+}
+
+
